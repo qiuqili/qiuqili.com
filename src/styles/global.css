@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  font-size: 39px;
+  margin-left: 3rem;
+  margin-top: 10rem;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #c99a32;
+}
+
+main {
+  margin: 3rem;
+}
+section {
+  display: flex;
+  align-items: center;
+}
