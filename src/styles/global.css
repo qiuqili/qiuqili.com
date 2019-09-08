@@ -22,4 +22,30 @@ main {
 section {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+section div {
+  width: 39%;
+}
+
+section div,
+section img {
+  margin: 10px;
+}
+
+button {
+  background-color: white;
+  border-radius: 18px;
+  border: 0.5px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
 }
