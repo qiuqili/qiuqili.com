@@ -49,3 +49,21 @@ button:hover {
   color: white;
   background-color: black;
 }
+
+@media only screen and (max-width: 600px) {
+  main {
+    margin: 1rem;
+  }
+
+  section {
+    flex-direction: column;
+  }
+
+  section img {
+    width: 100%;
+  }
+
+  section div {
+    width: 100%;
+  }
+}
