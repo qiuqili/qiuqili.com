@@ -5,14 +5,7 @@ import data from "../data.json"
 const LinkList = props => (
   <main>
     {data.development.map(item => (
-      <ListItem
-        image={item.image}
-        title={item.title}
-        about={item.about}
-        stack={item.stack}
-        roles={item.roles}
-        buttons={item.buttons}
-      />
+      <ListItem {...item} />
     ))}
   </main>
 )

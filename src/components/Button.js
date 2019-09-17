@@ -1,8 +1,8 @@
 import React from "react"
 
-const Button = props => (
-  <a href={props.link}>
-    <button>{props.name}</button>
+const Button = ({ link, name }) => (
+  <a href={link}>
+    <button>{name}</button>
   </a>
 )
 
