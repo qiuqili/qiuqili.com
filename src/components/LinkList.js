@@ -2,9 +2,9 @@ import React from "react"
 import ListItem from "./ListItem"
 import data from "../data.json"
 
-const LinkList = props => (
+const LinkList = ({ type }) => (
   <main>
-    {data.development.map(item => (
+    {data[type].map(item => (
       <ListItem {...item} />
     ))}
   </main>

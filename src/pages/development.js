@@ -4,6 +4,6 @@ import LinkList from "../components/LinkList"
 export default () => (
   <>
     <p>development</p>
-    <LinkList />
+    <LinkList type="development" />
   </>
 )
